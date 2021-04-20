@@ -3,13 +3,10 @@
 
 # In[1]:
 
-
 import vtk
 
-
 # In[36]:
-
-
+#Some parameters to vary the proportion and position
 scale = 1
 posX=0
 posY=0
@@ -109,16 +106,3 @@ interactor.SetRenderWindow(render_window)
 interactor.Initialize()
 render_window.Render()
 interactor.Start()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
